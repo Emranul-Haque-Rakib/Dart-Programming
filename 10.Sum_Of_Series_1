@@ -1,0 +1,18 @@
+
+// Summation of series | 1 + 2 + 3 + .... + n 
+
+
+void main() {
+  
+  var sum=0;
+  var n= 100;
+  
+  for(int i=1;i <=n;i++){
+    
+    sum = sum+i;
+  }
+  
+  print("Summation of 1 to $n isn : $sum");
+  
+  }
+
